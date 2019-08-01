@@ -4,9 +4,10 @@ label: Grid System & Breakpoints
 status: draft
 ---
 <h2>Grid System</h2>
-<p>The site uses the grid system included with the Karma CSS boilerplate. It's documentation can be found <a href="http://karmacss.readthedocs.io/en/latest/grid.html#auto-layout" target="_blank">here</a>.</p>
+<p>The UI component library features the following grid system...</p>
 
 <h2>Breakpoints</h2>
+<p>The UI component library is developed to the following breakpoints:</p>
 <table>
 	<tr>
 		<th></th>

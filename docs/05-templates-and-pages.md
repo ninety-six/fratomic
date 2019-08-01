@@ -14,7 +14,7 @@ status: draft
 </dl>
 
 <h2>Pages</h2>
-<p>When the specific needs of a specific page can't be met any of our generic templates, a custom 'Page' is used instead.</p>
+<p>When the specific needs of a specific page can't be met by any of our generic templates, a custom 'Page' is used instead.</p>
 <p>The following pages require their own bespoke 'Page':</p>
 <ul>
 	<li>Home</li>
