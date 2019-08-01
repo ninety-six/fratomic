@@ -1,0 +1,9 @@
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+readme.html
+.idea
+*.log
+node_modules
