@@ -1,0 +1,83 @@
+{
+    "title": "Table",
+    "label": "Tables",
+    "context": {
+        "headers": [
+            {
+                "title": "Name"
+            },
+            {
+                "title": "Title"
+            },
+            {
+                "title": "Created by"
+            },
+            {
+                "title": "Created at"
+            },
+            {
+                "title": "Cost"
+            }
+        ],
+        "rows": [
+            {
+                "cols": [
+                    {
+                        "value": "Some Thing"
+                    },
+                    {
+                        "value": "Foo"
+                    },
+                    {
+                        "value": "Bilbo Baggins"
+                    },
+                    {
+                        "value": "23 minutes ago"
+                    },
+                    {
+                        "value": "£100.00"
+                    }
+                ]
+            },
+            {
+                "cols": [
+                    {
+                        "value": "Another Thing"
+                    },
+                    {
+                        "value": "Bar"
+                    },
+                    {
+                        "value": "Frodo Baggins"
+                    },
+                    {
+                        "value": "1 hour ago"
+                    },
+                    {
+                        "value": "£99.00"
+                    }
+                ]
+            },
+            {
+                "cols": [
+                    {
+                        "value": "Summit Else"
+                    },
+                    {
+                        "value": "Wiz"
+                    },
+                    {
+                        "value": "Gandalf"
+                    },
+                    {
+                        "value": "01/01/2017 08:23 AM"
+                    },
+                    {
+                        "value": "£50.00"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": "prototype"
+}

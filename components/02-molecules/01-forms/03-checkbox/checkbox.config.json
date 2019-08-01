@@ -1,0 +1,9 @@
+{
+    "title": "Checkbox",
+    "context": {
+        "cbName": "Checkbox",
+        "cbValue": "LoremIpsum",
+        "cbText": "Lorem ipsum"
+    },
+    "status": "prototype"
+}

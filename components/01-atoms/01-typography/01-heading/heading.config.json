@@ -1,0 +1,35 @@
+{
+    "title": "Heading",
+    "label": "Headings",
+    "context": {
+        "headingText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    "default": "h1",
+    "variants": [
+        {
+            "name": "h1",
+            "label": "H1"
+        },
+        {
+            "name": "h2",
+            "label": "H2"
+        },
+        {
+            "name": "h3",
+            "label": "H3"
+        },
+        {
+            "name": "h4",
+            "label": "H4"
+        },
+        {
+            "name": "h5",
+            "label": "H5"
+        },
+        {
+            "name": "h6",
+            "label": "H6"
+        }
+    ],
+    "status": "prototype"
+}

@@ -1,0 +1,9 @@
+{
+    "title": "Radio",
+    "context": {
+        "radioName": "Radio",
+        "radioValue": "LoremIpsum",
+        "radioText": "Lorem ipsum"
+    },
+    "status": "prototype"
+}

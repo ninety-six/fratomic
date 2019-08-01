@@ -1,0 +1,8 @@
+{
+    "title": "Anchor",
+    "context": {
+        "anchorLink": "http://example.com/",
+        "anchorText": "dolor sit amet, consectetur"
+    },
+    "status": "prototype"
+}

@@ -1,0 +1,56 @@
+{
+    "title": "List",
+    "label": "Lists",
+    "context": {
+        "listItems": [
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            }
+        ]
+    },
+    "default": "unordered",
+    "variants": [
+        {
+            "name": "unordered",
+            "label": "Unordered"
+        },
+        {
+            "name": "ordered",
+            "label": "Ordered"
+        },
+        {
+            "name": "description",
+            "label": "Description",
+            "context": {
+                "listItems": [
+                    {
+                        "term": "Lorem ipsum",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    },
+                    {
+                        "term": "Lorem ipsum",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    },
+                    {
+                        "term": "Lorem ipsum",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    },
+                    {
+                        "term": "Lorem ipsum",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    }
+                ]
+            }
+        }
+    ],
+    "status": "prototype"
+}
