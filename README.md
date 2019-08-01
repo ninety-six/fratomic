@@ -58,7 +58,7 @@ If everything has worked correctly you will be able to browse the starter projec
 fractal export --output dist/twig
 ```
 
-This command will gather up all the template markup in your Fractal component library with the status of 'Exported' and place a copy of each .twig file in the ```dist/twig/``` directory. This can be quite useful if you want to package up &publish your component markup.
+This command will gather up all the template markup in your Fractal component library with the status of 'Exported' and place a copy of each .twig file in the ```dist/twig/``` directory. This can be quite useful if you want to package up & publish your component markup.
 
 ```Shell
 fractal build
@@ -70,7 +70,7 @@ This command will package up your complete Fractal UI library and convert it to 
 
 * ```build/``` - publishable HTML version of complete Fractal library 
 * ```components/``` - Fractal library 'building block' components structured using Atomic Design principles. Go [here](https://fractal.build/guide/components/) to find out more about components.
-* ```dist/``` - directory containing all compiled styling, scripts and other 'production ready' frontend resources the distribution requires.
+* ```dist/``` - directory containing all compiled styling, scripts and other 'production ready' frontend resources ready to be distributed/published
     * ```css/``` - compiled CSS files
     * ```font/``` - any fonts used
     * ```img/``` - images used in the projects styling
@@ -91,4 +91,4 @@ You will also need to link to your stylesheets & scripts within the ```dist``` f
 <link rel="stylesheet" href="{{ path ~ '/css/style.min.css' }}">
 ```
 
-```path``` has already to set to the ```dist``` directory on the ```fractal.config.js``` file.
+```path``` has already been set to the ```dist``` directory in the ```fractal.config.js``` file.
