@@ -4,7 +4,7 @@ status: draft
 ---
 <p>Design Tokens are an agnostic way to store variables such as typography, color, and spacing. They are the critical ingredients of a UI, but are not exactly functional on their own.</p>
 
-<p>This UI component library features the following tokens</p>
+<p>This UI component library features the following tokens:</p>
 
 <h2>Colour Palette</h2>
 <div class="swatches">
