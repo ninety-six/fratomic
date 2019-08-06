@@ -25,7 +25,7 @@ Keep what you need, delete what you don't and add whatever you like on top of wh
 1. Click the 'Clone or download' button above
 2. Click the 'Download ZIP' button
 3. Once the download is complete, unpack the ZIP file to an appropriate location
-4. From inside the folder root run ```npm install```
+4. From inside the directory root, run ```npm install```
 5. You're now ready to configure your starter project
 
 ## Configuration
