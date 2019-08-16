@@ -156,7 +156,9 @@ fractal.cli.command('export', exportTemplates,  {
  * before you can require() it.
  */
 
-const webUITheme = require('mono');
+const webUITheme = require('mono')({
+    styles: ['default', '/webui-overrides/overrides.css']
+});
 
 /*
  * Specify a directory to hold the theme override templates
