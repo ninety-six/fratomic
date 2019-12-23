@@ -54,7 +54,7 @@ This starts up a Fractal development server. Load up the local URL displayed in 
 
 If everything has worked correctly you will be able to browse the starter project.
 
-### Other Commands
+### Other Commands
 
 ```Shell
 fractal export --output dist/twig
@@ -83,7 +83,7 @@ This command will package up your complete Fractal UI library and convert it to 
 * ```docs/``` - Fractal library documentation pages in markdown format. Go [here](https://fractal.build/guide/documentation/) to find out more about documentation.
 * ```src/``` - directory containing Sass and JavaScript files to be compiled into the appropriate folders in the 'dist' directory.
 
-## Working with Components
+## Working with Components
 
 Enter an appropriate ```PROJECT NAME``` in the ```<title>``` element of all ```_preview.twig``` files within the ```components``` directory.
 
