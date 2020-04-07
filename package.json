@@ -1,7 +1,7 @@
 {
     "name": "fratomic",
     "description": "An awesome starter point for your Fractal UI component library based on Atomic Design principles.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
