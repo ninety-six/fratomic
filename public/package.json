@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+        "@frctl/fractal": "^1.1.7",
+        "@frctl/twig": "^1.0.0-beta.5",
+        "mono-fractal": "^1.0.0"
+    },
+    "fractal": {
+        "main": "fractal.config.js"
+    }
+}

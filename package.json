@@ -29,7 +29,22 @@
         "@frctl/twig": "^1.1.0",
         "mono-fractal": "^1.0.2"
     },
-    "fractal": {
-        "main": "fractal.config.js"
-    }
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ninety-six/fratomic"
+    },
+    "keywords": [
+        "fractal",
+        "boilerplate",
+        "atomic",
+        "design",
+        "system",
+        "components"
+    ],
+    "author": "ninety-six <benhall.ninetysix@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ninety-six/fratomic/issues"
+    },
+    "homepage": "https://github.com/ninety-six/fratomic"
 }

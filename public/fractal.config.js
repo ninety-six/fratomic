@@ -18,14 +18,12 @@ const fractal = module.exports = require('@frctl/fractal').create();
 /*
  * Give your project a title.
  */
-fractal.set('project.title', '[ENTER PROJECT NAME] UI Component Library');
+fractal.set('project.title', 'UI Component Library');
 
 /*
  * Other project metadata.
  */
 fractal.set('project.version', 'v1.0');
-fractal.set('project.repository', '[ENTER REPOSITORY URL]');
-fractal.set('project.author', '[ENTER AUTHOR NAME]');
 
 /*
  * Tell Fractal where to look for components.
