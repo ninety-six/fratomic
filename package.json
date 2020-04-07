@@ -1,8 +1,33 @@
 {
+    "name": "fratomic",
+    "description": "An awesome starter point for your Fractal UI component library based on Atomic Design principles.",
+    "version": "1.0.1",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ninety-six/fratomic.git"
+    },
+    "keywords": [
+        "fractal",
+        "boilerplate",
+        "subtheme",
+        "design",
+        "system",
+        "components",
+        "documentation"
+    ],
+    "author": "ninety-six <benhall.ninetysix@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ninety-six/fratomic/issues"
+    },
+    "homepage": "https://github.com/ninety-six/fratomic#readme",
     "dependencies": {
-        "@frctl/fractal": "^1.1.7",
-        "@frctl/twig": "^1.0.0-beta.5",
-        "mono-fractal": "^1.0.0"
+        "@frctl/fractal": "^1.2.1",
+        "@frctl/twig": "^1.1.0",
+        "mono-fractal": "^1.0.2"
     },
     "fractal": {
         "main": "fractal.config.js"

@@ -1,4 +1,4 @@
-# Fractal Atomic
+# Fratomic
 
 An awesome starter point for your Fractal UI component library.
 
@@ -8,7 +8,7 @@ This starting point has been developed to adhere to the principles of [Atomic De
 
 Keep what you need, delete what you don't and add whatever you like on top of whats already there.
 
-![Fractal Atomic using Mono screenshot](screenshot.jpg "Fractal Atomic using Mono screenshot")
+![Fratomic using Mono screenshot](screenshot.jpg "Fratomic using Mono screenshot")
 
 ## Features
 
@@ -18,7 +18,7 @@ Keep what you need, delete what you don't and add whatever you like on top of wh
 * Markup, config and markdown files for typography, buttons, form elements and tables included
 * Statuses for components & documentation pages improved
 * Template export function included
-* Uses the [Mono](https://github.com/AccentDesign/Mono) theme 'out of the box'
+* Uses the [Mono](https://github.com/ninety-six/mono-fractal) theme 'out of the box'
 
 ## Installing
 

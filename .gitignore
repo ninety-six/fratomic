@@ -1,11 +1,26 @@
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-readme.html
+# IDE & Editors
 .idea
-*.log
-.sass-cache
+.vscode
+*.iml
+
+# OSX
+*.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.lnk
+
+# Debug log from npm
+npm-debug.log
+
 node_modules
-package-lock.json
+
+*.map
+*.log
+
+*.awcache
