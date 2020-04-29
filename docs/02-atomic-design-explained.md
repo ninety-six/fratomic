@@ -8,23 +8,23 @@ Working this way promotes consistency and scalability while simultaneously showi
 
 There are five distinct levels in Atomic Design:
 
-## ![Atom](/mono-theme/img/icon-atoms.svg "Atom") Atoms
+## ![Atom](/webui-overrides/img/icon-atoms.svg "Atom") Atoms
 
 Atoms are the basic building blocks of matter. Applied to web interfaces, atoms are our HTML tags, such as a form label, an input or a button.
 
-## ![Molecule](/mono-theme/img/icon-molecules.svg "Molecule") Molecules
+## ![Molecule](/webui-overrides/img/icon-molecules.svg "Molecule") Molecules
 
 Molecules are groups of atoms bonded together and are the smallest fundamental units of a compound.
 
-## ![Organism](/mono-theme/img/icon-organisms.svg "Organism") Organisms
+## ![Organism](/webui-overrides/img/icon-organisms.svg "Organism") Organisms
 
 Organisms are groups of molecules and atoms joined together to form a relatively complex, distinct section of an interface.
 
-## ![Template](/mono-theme/img/icon-templates.svg "Template") Templates
+## ![Template](/webui-overrides/img/icon-templates.svg "Template") Templates
 
 Templates are groups of organisms stitched together to form a generic 'full page' component that can be used more than once across your project. For example, a Post template to output blog articles.
 
-## ![Page](/mono-theme/img/icon-pages.svg "Page") Pages
+## ![Page](/webui-overrides/img/icon-pages.svg "Page") Pages
 
 Pages are specific, 'bespoke' instances of templates like a homepage.
 

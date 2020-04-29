@@ -1,0 +1,17 @@
+<svg width="20px" height="26px" viewBox="0 0 20 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-44.000000, -1120.000000)" fill="#87898C">
+            <g transform="translate(44.000000, 1120.000000)">
+                <path d="M0,0 L19.76,0 L19.76,26 L0,26 L0,0 Z M0.91,0.91 L0.91,25.09 L18.85,25.09 L18.85,0.91 L0.91,0.91 Z"></path>
+                <rect x="3.38" y="3.9" width="5.2" height="1"></rect>
+                <rect x="3.38" y="6.76" width="5.2" height="1"></rect>
+                <rect x="3.38" y="9.62" width="13" height="1"></rect>
+                <path d="M3.38,12.48 L16.38,12.48 L16.38,19.11 L3.38,19.11 L3.38,12.48 Z M5.33,13.78 L5.33,14.69 L14.43,14.69 L14.43,13.78 L5.33,13.78 Z M5.33,16.9 L5.33,17.81 L14.43,17.81 L14.43,16.9 L5.33,16.9 Z M7.28,15.34 L7.28,16.25 L12.48,16.25 L12.48,15.34 L7.28,15.34 Z"></path>
+                <rect x="3.38" y="21.06" width="3.9" height="1"></rect>
+                <rect x="12.48" y="21.06" width="3.9" height="1"></rect>
+                <rect x="7.93" y="21.06" width="3.9" height="1"></rect>
+                <rect x="9.88" y="3.9" width="6.5" height="3.77"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
