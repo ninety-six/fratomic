@@ -13,6 +13,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
+## [1.0.3] - 2019-04-29
+### Changed
+- Implement Mono v1.1.0
+
 ## [1.0.2] - 2019-04-07
 ### Added
 - License & versioning
@@ -28,7 +32,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial build
 
-[Unreleased]: https://github.com/ninety-six/fratomic/compare/v1.0.2...HEAD
+[Unreleased]: https://github.com/ninety-six/fratomic/compare/v1.0.3...HEAD
+[1.0.3]: https://github.com/ninety-six/fratomic/releases/tag/v1.0.3
 [1.0.2]: https://github.com/ninety-six/fratomic/releases/tag/v1.0.2
 [1.0.1]: https://github.com/ninety-six/fratomic/releases/tag/v1.0.1
 [1.0.0]: https://github.com/ninety-six/fratomic/releases/tag/v1.0.0
