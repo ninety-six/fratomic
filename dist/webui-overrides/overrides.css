@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Oxygen:400,400i,700&display=swap");
 
+.Tree-header {
+    padding: 0;
+}
+
 h2#atom-atoms,
 h2#molecule-molecules,
 h2#organism-organisms,
@@ -40,16 +44,24 @@ h2#page-pages img {
     text-transform: uppercase;
 }
 
-#tree-components-collection-atoms > h3 span:before,
-#tree-components-collection-molecules > h3 span:before,
-#tree-components-collection-organisms > h3 span:before,
-#tree-components-collection-templates > h3 span:before,
-#tree-components-collection-pages > h3 span:before {
+#tree-components-collection-atoms > h3::before,
+#tree-components-collection-molecules > h3::before,
+#tree-components-collection-organisms > h3::before,
+#tree-components-collection-templates > h3::before,
+#tree-components-collection-pages > h3::before {
     background-size: auto 100%;
     height: 20px;
     left: 0 !important;
-    top: 0;
+    top: 4px;
     width: 20px;
+}
+
+#tree-components-collection-atoms .Tree-collection .Tree-collectionItems,
+#tree-components-collection-molecules .Tree-collection .Tree-collectionItems,
+#tree-components-collection-organisms .Tree-collection .Tree-collectionItems,
+#tree-components-collection-templates .Tree-collection .Tree-collectionItems,
+#tree-components-collection-pages .Tree-collection .Tree-collectionItems {
+    margin-left: 15px;
 }
 
 [dir="ltr"] #tree-components-collection-atoms > h3,
@@ -60,20 +72,20 @@ h2#page-pages img {
     padding: 4px 0 !important;
 }
 
+[dir="ltr"] #tree-components-collection-atoms .Tree-collection .Tree-collectionLabel::before,
+[dir="ltr"] #tree-components-collection-molecules .Tree-collection .Tree-collectionLabel::before,
+[dir="ltr"] #tree-components-collection-organisms .Tree-collection .Tree-collectionLabel::before,
+[dir="ltr"] #tree-components-collection-templates .Tree-collection .Tree-collectionLabel::before,
+[dir="ltr"] #tree-components-collection-pages .Tree-collection .Tree-collectionLabel::before {
+    left: 0 !important;
+}
+
 [dir="ltr"] #tree-components-collection-atoms > h3 span,
 [dir="ltr"] #tree-components-collection-molecules > h3 span,
 [dir="ltr"] #tree-components-collection-organisms > h3 span,
 [dir="ltr"] #tree-components-collection-templates > h3 span,
 [dir="ltr"] #tree-components-collection-pages > h3 span {
     padding-left: 30px !important;
-}
-
-[dir="ltr"] #tree-components-collection-atoms > h3 span:before,
-[dir="ltr"] #tree-components-collection-molecules > h3 span:before,
-[dir="ltr"] #tree-components-collection-organisms > h3 span:before,
-[dir="ltr"] #tree-components-collection-templates > h3 span:before,
-[dir="ltr"] #tree-components-collection-pages > h3 span:before {
-    left: 0 !important;
 }
 
 [dir="rtl"] #tree-components-collection-atoms > h3,
@@ -84,6 +96,14 @@ h2#page-pages img {
     padding: 4px 0 !important;
 }
 
+[dir="rtl"] #tree-components-collection-atoms > h3::before,
+[dir="rtl"] #tree-components-collection-molecules > h3::before,
+[dir="rtl"] #tree-components-collection-organisms > h3::before,
+[dir="rtl"] #tree-components-collection-templates > h3::before,
+[dir="rtl"] #tree-components-collection-pages > h3::before {
+    right: 0 !important;
+}
+
 [dir="rtl"] #tree-components-collection-atoms > h3 span,
 [dir="rtl"] #tree-components-collection-molecules > h3 span,
 [dir="rtl"] #tree-components-collection-organisms > h3 span,
@@ -92,16 +112,8 @@ h2#page-pages img {
     padding-right: 30px !important;
 }
 
-[dir="rtl"] #tree-components-collection-atoms > h3 span:before,
-[dir="rtl"] #tree-components-collection-molecules > h3 span:before,
-[dir="rtl"] #tree-components-collection-organisms > h3 span:before,
-[dir="rtl"] #tree-components-collection-templates > h3 span:before,
-[dir="rtl"] #tree-components-collection-pages > h3 span:before {
-    right: 0 !important;
-}
-
-#tree-components-collection-atoms > h3 span:before { background-image: url('img/icon-atoms.svg') !important; }
-#tree-components-collection-molecules > h3 span:before { background-image: url('img/icon-molecules.svg') !important; }
-#tree-components-collection-organisms > h3 span:before { background-image: url('img/icon-organisms.svg') !important; }
-#tree-components-collection-templates > h3 span:before { background-image: url('img/icon-templates.svg') !important; }
-#tree-components-collection-pages > h3 span:before { background-image: url('img/icon-pages.svg') !important; }
+#tree-components-collection-atoms > h3::before { background-image: url('img/icon-atoms.svg') !important; }
+#tree-components-collection-molecules > h3::before { background-image: url('img/icon-molecules.svg') !important; }
+#tree-components-collection-organisms > h3::before { background-image: url('img/icon-organisms.svg') !important; }
+#tree-components-collection-templates > h3::before { background-image: url('img/icon-templates.svg') !important; }
+#tree-components-collection-pages > h3::before { background-image: url('img/icon-pages.svg') !important; }
